@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5{
 
 .navbar-bp{
     background:var(--azul);
-    box-shadow:0 3px 20px rgba(0,0,0,.15);
+    box-shadow:0 3px 20px rgba(243,22,104,.08);
 }
 
 .navbar-brand img{
@@ -197,7 +197,6 @@ h1,h2,h3,h4,h5{
 .whatsapp-section{
     background:linear-gradient(135deg,#03153d,#081d53);
     color:#ffffff;
-    padding: auto;
 }
 
 .whatsapp-section span {
