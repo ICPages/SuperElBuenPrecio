@@ -60,8 +60,8 @@ h1,h2,h3,h4,h5{
 }
 
 .btn-tienda {
-    background:var(--rosa);
-    color:white;
+    background: #f31668;
+    color:#ffffff;
     border-radius:12px;
     padding:.7rem 1.2rem;
     text-decoration:none;
@@ -71,7 +71,7 @@ h1,h2,h3,h4,h5{
 .btn-tienda:hover {
     background: #ffffff;
     color: #f31668;
-    border-color: #f31668;;
+    border-color: #f31668;
 }
 
 .hero img{
@@ -197,18 +197,18 @@ h1,h2,h3,h4,h5{
 
 .whatsapp-section{
     background:linear-gradient(135deg,#03153d,#081d53);
-    color:white;
-    padding:80px 0;
+    color:#ffffff;
+    padding: auto;
 }
 
-.whatsapp-section span{
+.whatsapp-section span {
     color:#f31668;
 }
 
 .btn-whatsapp-big{
     display:inline-block;
     background:#25D366;
-    color:white;
+    color:#ffffff;
     text-decoration:none;
     padding:15px 30px;
     border-radius:12px;
@@ -216,9 +216,27 @@ h1,h2,h3,h4,h5{
     font-weight:700;
 }
 
+.btn-whatsapp-big:hover {
+    color: #ffffff;
+    background-color: #f31668;
+}
+
 .pasos div{
     margin:20px 0;
-    font-size:1.2rem;
+}
+
+.pasos i {
+    color:#f31668;
+}
+
+.pasos-enlace {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.pasos-enlace:hover {
+    color: #f31668;
+    text-decoration: none;
 }
 
 footer{
