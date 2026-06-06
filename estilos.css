@@ -289,3 +289,28 @@ footer{
         transform:translateY(0);
     }
 }
+
+@media (max-width:768px){
+
+    .beneficio-card{
+        padding:10px;
+        gap:8px;
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .beneficio-card i{
+        font-size:1.3rem;
+    }
+
+    .beneficio-card h5{
+        font-size:.75rem;
+        margin-bottom:2px;
+    }
+
+    .beneficio-card p{
+        font-size:.65rem;
+        margin:0;
+    }
+
+}
