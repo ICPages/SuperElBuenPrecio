@@ -305,7 +305,7 @@ footer{
     }
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
     .beneficio-card{
         padding:10px;
@@ -326,6 +326,33 @@ footer{
     .beneficio-card p{
         font-size:.65rem;
         margin:0;
+    }
+    
+    .sucursal-card img{
+        height:120px;
+    }
+
+    .sucursal-card .p-3{
+        padding:12px !important;
+    }
+
+    .sucursal-card h5{
+        font-size:.95rem;
+    }
+
+    .sucursal-card p{
+        font-size:.75rem;
+        margin-bottom:.6rem;
+    }
+
+    .suc-botones{
+        margin-top:auto;
+    }
+
+    .btn-como-llegar,
+    .btn-wsp{
+        font-size:.75rem;
+        padding:.45rem .5rem;
     }
 
 }
