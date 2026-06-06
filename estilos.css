@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5{
     background: #f31668;
     color:#ffffff;
     border-radius:12px;
-    padding:.7rem 1.2rem;
+    padding:.7rem 1rem;
     text-decoration:none;
     font-weight:600;
 }
@@ -186,15 +186,15 @@ h1,h2,h3,h4,h5{
 
 .btn-como-llegar {
     color: #f31668;
-    border-color: #f31668;
+    border:1px solid #f31668;
     border-radius: 12px;
     font-size: .9rem;
     font-weight: 600;
-}
-
-.btn-como-llegar:hover {
-    color: #ffffff;
-    background-color: #f31668;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    padding:.3rem 1rem;
 }
 
 .btn-wsp {
@@ -203,10 +203,14 @@ h1,h2,h3,h4,h5{
     border-radius: 12px;
     font-size: .9rem;
     font-weight: 600;
-    align-content: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration:none;
+    padding:.3rem 1rem;
 }
 
-.btn-wsp:hover {
+.btn-como-llegar:hover, .btn-wsp:hover {
     color: #ffffff;
     background-color: #f31668;
 }
