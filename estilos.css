@@ -142,12 +142,10 @@ h1,h2,h3,h4,h5{
     width:100%;
 }
 
-.fb-page,
-.fb-page span,
-.fb-page iframe{
+.fb-page, .fb-page span, .fb-page iframe{
     width:100% !important;
     max-width:100% !important;
-    height:360px !important;
+    height:310px !important;
 }
 
 .row-contacto{
@@ -304,18 +302,44 @@ h1,h2,h3,h4,h5{
 }
 
 footer{
-    background:#041238;
+    background:var(--azul);
     color:white;
-    padding:60px 0;
+    padding:auto;
+    font-size:14px;
 }
 
 .footer-logo{
     max-width:180px;
 }
 
+.footer-span {
+    color: #f31668;
+}
+
+footer ul{
+    list-style:none;
+    padding-left:0;
+    margin:0;
+}
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size:14px;
+}
+
+.footer-link:hover {
+    color: #f31668;
+}
+
 .sociales i{
     font-size:1.8rem;
     margin-right:15px;
+    color: #ffffff;
+}
+
+.sociales i:hover {
+    color: #f31668;
 }
 
 .btn-carrito{
