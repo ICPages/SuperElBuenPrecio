@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5{
 }
 
 .nav-link:hover {
-    color:#f31668;
+    color:#f31668 !important;
     font-weight:700;
 }
 
@@ -55,10 +55,6 @@ h1,h2,h3,h4,h5{
     width:100%;
 }
 
-.nav-link:active{
-    color:#ffffff !important;
-}
-
 .btn-tienda {
     background: #f31668;
     color:#ffffff;
@@ -71,7 +67,6 @@ h1,h2,h3,h4,h5{
 .btn-tienda:hover {
     background: #ffffff;
     color: #f31668;
-    border-color: #f31668;
 }
 
 .hero img{
