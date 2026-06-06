@@ -7,7 +7,7 @@
 body{
     font-family:'Poppins',sans-serif;
     padding-top:80px;
-    background:#fff;
+    background:#f8f9fb;
     font-size:14px;
     color: #000;
 }
@@ -140,6 +140,56 @@ h1,h2,h3,h4,h5{
     background:var(--azul);
     color:white;
     width:100%;
+}
+
+.fb-page,
+.fb-page span,
+.fb-page iframe{
+    width:100% !important;
+    max-width:100% !important;
+    height:360px !important;
+}
+
+.row-contacto{
+    align-items:stretch;
+}
+
+.red-social{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:15px 20px;
+    margin-bottom:15px;
+    border-radius:14px;
+    text-decoration:none;
+    color:#fff;
+    font-weight:600;
+    transition:.3s;
+}
+
+.red-social:hover{
+    transform:translateY(-3px);
+    color:#fff;
+}
+
+.red-social i{
+    font-size:1.3rem;
+}
+
+.facebook{
+    background:#1877F2;
+}
+
+.instagram{
+    background:linear-gradient(45deg,#833AB4,#E1306C,#FCAF45);
+}
+
+.tiktok{
+    background:#000;
+}
+
+.whatsapp{
+    background:#25D366;
 }
 
 .sucursal-card{
