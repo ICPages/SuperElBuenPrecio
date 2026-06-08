@@ -106,6 +106,32 @@ h1,h2,h3,h4,h5{
     color:var(--rosa);
 }
 
+.ofertas-scroll{
+    display:flex;
+    gap:1rem;
+    overflow-x:auto;
+    overflow-y:hidden;
+    padding-bottom:15px;
+    scroll-behavior:smooth;
+}
+
+.ofertas-scroll::-webkit-scrollbar{
+    height:8px;
+}
+
+.ofertas-scroll::-webkit-scrollbar-thumb{
+    background:#081d53;
+    border-radius: 75px 25px 75px 25px;
+}
+
+.ofertas-scroll::-webkit-scrollbar-track{
+    background:#ffffff;
+}
+
+.ofertas-scroll .producto-item{
+    flex:0 0 260px;
+}
+
 .producto-card{
     background: #ffffff;
     border-radius: 75px 25px 75px 25px;
