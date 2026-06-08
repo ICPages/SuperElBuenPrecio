@@ -107,7 +107,7 @@ h1,h2,h3,h4,h5{
 }
 
 .producto-card{
-    background:white;
+    background: #ffffff;
     border-radius: 75px 25px 75px 25px;
     overflow:hidden;
     box-shadow:0 5px 15px rgba(0,0,0,.08);
@@ -124,6 +124,9 @@ h1,h2,h3,h4,h5{
 
 .ver-productos{
     color: #f31668;
+    background-color: #ffffff;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    border-radius: 25px 75px 25px 75px;
 }
 
 .ver-productos:hover {
@@ -138,7 +141,7 @@ h1,h2,h3,h4,h5{
 
 .descuento {
     background-color: #081d53;
-    border-radius: 25px 75px 25px 75px;
+    border-radius: 75px 25px 75px 25px;
 }
 
 .precio{
