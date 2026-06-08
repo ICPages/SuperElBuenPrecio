@@ -36,7 +36,7 @@ async function cargarOfertas() {
                                     $${producto.precioAntes.toFixed(2)}
                                 </span>
 
-                                <span class="badge bg-danger mb-3">
+                                <span class="descuento badge mb-3">
                                 ${producto.descuento}% OFF
                             </span>
                             </p>
@@ -53,6 +53,27 @@ async function cargarOfertas() {
             `;
 
         });
+
+        contenedor.innerHTML += `
+    <div class="col-6 col-md-4 col-lg-3">
+
+        <a href="tienda.html"
+           class="producto-card ver-todos-card text-decoration-none">
+
+            <div class="ver-productos h-100 d-flex flex-column justify-content-center align-items-center p-4">
+
+                <i class="bi bi-grid-3x3-gap-fill mb-3"></i>
+
+                <h4 class="text-center">Ver todos los productos</h4>
+
+                <p class="text-center mb-0">Explora nuestro catálogo completo</p>
+
+            </div>
+
+        </a>
+
+    </div>
+`;
 
     } catch (error) {
 
