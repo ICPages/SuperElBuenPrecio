@@ -19,7 +19,7 @@ async function cargarOfertas() {
         ofertas.forEach(producto => {
 
             contenedor.innerHTML += `
-                <div class="col-6 col-md-4 col-lg-3">
+                <div class="producto-item">
 
                     <div class="producto-card">
 
@@ -55,7 +55,7 @@ async function cargarOfertas() {
         });
 
         contenedor.innerHTML += `
-    <div class="col-6 col-md-4 col-lg-3">
+    <div class="producto-item">
 
         <a href="tienda.html"
            class="producto-card ver-todos-card text-decoration-none">
